@@ -3,6 +3,4 @@ function fetchStats() {
     const mode = document.getElementById("mode").value;
 
     document.getElementById("stats").innerHTML = `Fetching stats for ${year}, Mode: ${mode}...`;
-
-    // Here we'll add API calls later
 }
